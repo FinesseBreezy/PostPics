@@ -1,0 +1,14 @@
+<h1 class="center" style="color: white;">Create new item</h1>
+<form method="POST" action="/items">
+  <div class="input-field">
+    <input id="title" name="title" require /></input>
+    <label class="active" for="title">Title</label>
+    <input id="image" name="image" require /></input>
+    <label class="active" for="image">Image URL</label>
+  </div>
+  <div class="input-field">
+    <textarea class="textarea" id="desc" required name="description"></textarea>
+    <label for="desc" class="active">Description</label>
+    </div>
+    <button class="btn right" type="submit">submit</button>
+  </form>
